@@ -1,0 +1,13 @@
+pde index:0x19  pde contents:(0x7f,  valid 0, pfn 0x7f)
+Fault (page directory entry not valid)
+pde index:0x7  pde contents:(0xbd,  valid 1, pfn 0x3d)
+pte index:0x0  pte contents:(0xf6,  valid 1, pfn 0x76)
+ To Physical Address 0xed3--> value : 0x12
+pde index:0x1a  pde contents:(0x7f,  valid 0, pfn 0x7f)
+Fault (page directory entry not valid)
+pde index:0x2  pde contents:(0xa1,  valid 1, pfn 0x21)
+pte index:0x17  pte contents:(0x7f,  valid 1, pfn 0x7f)
+ To Physical Address 0xff6--> value : 0x0
+pde index:0x7  pde contents:(0xbd,  valid 1, pfn 0x3d)
+pte index:0x13  pte contents:(0x16,  valid 1, pfn 0x16)
+ To Physical Address 0x2cf--> value : 0x0
