@@ -83,7 +83,7 @@ int stonum(char* b,int col)
 int main(){
     
     ifstream in("mem.txt");  
-    char buffer[200];
+    char buffer[256];
     if (! in.is_open()) {
       //  cout << "opening file failed!"<<endl; 
     }  
@@ -91,7 +91,7 @@ int main(){
         int l = 128;
         int j = 0;
         while (l--) { 
-            in.getline (buffer,200); 
+            in.getline (buffer,256); 
             for (int i = 0; i < 32; i++) {
 
                     mem[j][i] = stonum(buffer,i);
@@ -109,7 +109,7 @@ int main(){
         int l = 128;
         int j = 0;
         while (l--) { 
-            in.getline (buffer,200); 
+            in.getline (buffer,256); 
             for (int i = 0; i < 32; i++) {
 
                     disk[j][i] = stonum(buffer,i);
